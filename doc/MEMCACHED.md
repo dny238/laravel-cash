@@ -14,4 +14,11 @@ $ brew tap josegonzalez/homebrew-php
 $ brew install php55-memcached
 ```
 
+## CentOS
+```sh
+yum install memcached
+yum install php-pear
+yum install php-pecl-memcached
+/etc/init.d/memcached start
+```
 If you are reading this, please make a pull request and improve this article.
